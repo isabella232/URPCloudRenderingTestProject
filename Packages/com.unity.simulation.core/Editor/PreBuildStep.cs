@@ -31,10 +31,10 @@ namespace Unity.Simulation
 #if UNITY_EDITOR_WIN
             "com.unity.toolchain.win-x86_64-linux-x86_64@0.1.9-preview",
 #elif UNITY_EDITOR_OSX
-            "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.15-preview",
+            "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.15-preview"
 #endif
-            "com.unity.sysroot.linux-x86_64@0.1.9-preview",
-            "com.unity.sysroot@0.1.11-preview"
+            //"com.unity.sysroot.linux-x86_64@0.1.9-preview",
+            //"com.unity.sysroot@0.1.11-preview"
         };
 
         static PreBuildStep()

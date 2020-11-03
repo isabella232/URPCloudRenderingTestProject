@@ -585,9 +585,11 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
+    1: UNITY_STANDALONE_LINUX_API
     30: UNITY_STANDALONE_LINUX_API
   platformArchitecture: {}
   scriptingBackend:
+    CloudRendering: 1
     Standalone: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
